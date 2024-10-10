@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="com.example.splashanimated" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0">
+  <name>SplashAnimatedPlugin</name>
+  <description>A plugin to show animated splash screens</description>
+  <license>MIT</license>
+  <keywords>splash, animation</keywords>
+  <author email="your-email@example.com" href="https://example.com">Your Name</author>
+  
+  <!-- Plataformas suportadas -->
+  <platform name="android">
+    <source-file src="src/android/SplashAnimatedPlugin.java" target-dir="src/com/example/splashanimated" />
+  </platform>
+
+  <platform name="ios">
+    <source-file src="src/ios/SplashAnimatedPlugin.m" target-dir="src/SplashAnimatedPlugin" />
+  </platform>
+
+  <js-module src="www/SplashAnimated.js" name="SplashAnimated">
+    <clobbers target="window.SplashAnimated" />
+  </js-module>
+</plugin>

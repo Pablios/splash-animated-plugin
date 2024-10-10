@@ -1,0 +1,20 @@
+{
+	"name": "splash-animated-plugin",
+	"version": "1.0.0",
+	"description": "A plugin to show animated splash screens",
+	"cordova": {
+		"id": "com.example.splashanimated",
+		"platforms": [
+			"android",
+			"ios"
+		]
+	},
+	"keywords": [
+		"cordova",
+		"plugin",
+		"splash",
+		"animation"
+	],
+	"author": "Your Name",
+	"license": "MIT"
+}
