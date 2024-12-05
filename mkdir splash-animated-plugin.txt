@@ -1,0 +1,6 @@
+mkdir splash-animated-plugin
+cd splash-animated-plugin
+mkdir src && mkdir src/android
+mkdir src/ios
+touch plugin.xml
+touch package.json
